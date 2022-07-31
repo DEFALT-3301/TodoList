@@ -1,0 +1,5 @@
+export const CREATE_TODO = 'TODO/CREATE_TODO';
+export const FETCH_TODO = 'TODO/FETCH_TODO';
+export const REMOVE_TODO = 'TODO/REMOVE_TODO';
+export const SHOW_LOADER = 'LOADER/SHOW_LOADER';
+export const HIDE_LOADER = 'LOADER/HUDE_LOADER';

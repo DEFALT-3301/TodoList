@@ -1,0 +1,40 @@
+.todoForm {
+  margin-top: 50px;
+  width: 700px;
+  margin-left: 300px;
+}
+
+.todoText {
+  margin-top: 10px;
+}
+
+.greetingsText {
+  margin-top: 150px;
+}
+
+.headerOne {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.animShow {
+  font-size: 25px;
+  padding: 20px;
+  margin: auto;
+  margin-bottom: 20px;
+  opacity: 0;
+  transition: 0.1s;
+  animation: show 3s 1;
+  animation-fill-mode: forwards;
+  animation-delay: 1s;
+}
+
+@keyframes show {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
